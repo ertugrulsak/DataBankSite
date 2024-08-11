@@ -1,0 +1,24 @@
+﻿@model List<string>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Functions in @ViewBag.DatabaseName</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Functions in @ViewBag.DatabaseName</h2>
+        <ul class="list-group">
+            @foreach (var function in Model)
+            {
+                <li class="list-group-item">
+                    <a href="@Url.Action("FunctionDetails", "Database", new { databaseName = ViewBag.DatabaseName, functionName = function })">@function</a>
+                </li>
+            }
+        </ul>
+        <a href="@Url.Action("Details", "Database", new { databaseName = ViewBag.DatabaseName })" class="btn btn-primary mt-3">Back to Database Details</a>
+    </div>
+</body>
+</html>

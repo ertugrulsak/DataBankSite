@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Database Details";
+}
+
+<h2>@ViewBag.DatabaseName</h2>
+
+<ul class="list-group">
+    <li class="list-group-item">
+        <a href="@Url.Action("Tables", "Database", new { databaseName = ViewBag.DatabaseName })">Tables</a>
+    </li>
+    <li class="list-group-item">
+        <a href="@Url.Action("Views", "Database", new { databaseName = ViewBag.DatabaseName })">Views</a>
+    </li>
+    <li class="list-group-item">
+        <a href="@Url.Action("Functions", "Database", new { databaseName = ViewBag.DatabaseName })">Functions</a>
+    </li>
+    <li class="list-group-item">
+        <a href="@Url.Action("Procedures", "Database", new { databaseName = ViewBag.DatabaseName })">Stored Procedures</a>
+    </li>
+</ul>
+
+<a href="@Url.Action("Index", "Database", new { databaseName = ViewBag.DatabaseName })" class="btn btn-primary mt-3">Back to Databases</a>

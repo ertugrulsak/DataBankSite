@@ -1,0 +1,23 @@
+﻿@model List<string>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Databases</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Databases</h2>
+        <ul class="list-group">
+            @foreach (var database in Model)
+            {
+                <li class="list-group-item">
+                    <a href="@Url.Action("Details", "Database", new { databaseName = database })">@database</a>
+                </li>
+            }
+        </ul>
+    </div>
+</body>
+</html>

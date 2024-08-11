@@ -1,0 +1,45 @@
+﻿@model List<Microsoft.Data.SqlClient.SqlParameter>
+
+@using System.Data
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewBag.FunctionName in @ViewBag.DatabaseName</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>@ViewBag.FunctionName in @ViewBag.DatabaseName</h2>
+        @if (Model != null && Model.Any())
+        {
+            <form asp-action="FunctionDetails" method="post">
+                <input type="hidden" name="databaseName" value="@ViewBag.DatabaseName" />
+                <input type="hidden" name="functionName" value="@ViewBag.FunctionName" />
+
+                @foreach (var param in Model)
+                {
+                    @if (param.Direction != System.Data.ParameterDirection.ReturnValue && param.ParameterName != "")
+                    {
+                        <div class="form-group">
+                            <label for="@param.ParameterName">@param.ParameterName</label>
+                            @if (param.SqlDbType == System.Data.SqlDbType.Date || param.SqlDbType == System.Data.SqlDbType.DateTime)
+                            {
+                                <input type="date" class="form-control" name="parameters[@param.ParameterName]" />
+                            }
+                            else
+                            {
+                                <input type="text" class="form-control" name="parameters[@param.ParameterName]" />
+                            }
+                        </div>
+                    }
+                }
+
+                <button type="submit" class="btn btn-primary">Execute</button>
+            </form>
+        }
+        <a href="@Url.Action("Functions", "Database", new { databaseName = ViewBag.DatabaseName })" class="btn btn-secondary mt-3">Back to Functions</a>
+    </div>
+</body>
+</html>

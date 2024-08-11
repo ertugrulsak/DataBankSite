@@ -1,0 +1,95 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = InternProject
+build_property.RootNamespace = InternProject
+build_property.ProjectDir = C:\Users\Ertuğrul\Desktop\C# Örnekler\InternProject\InternProject\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Ertuğrul\Desktop\C# Örnekler\InternProject\InternProject
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/Database/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YWJhc2VcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/Database/FunctionDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YWJhc2VcRnVuY3Rpb25EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/Database/FunctionResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YWJhc2VcRnVuY3Rpb25SZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/Database/Functions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YWJhc2VcRnVuY3Rpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/Database/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YWJhc2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/Database/ProcedureDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YWJhc2VcUHJvY2VkdXJlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/Database/ProcedureResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YWJhc2VcUHJvY2VkdXJlUmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/Database/Procedures.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YWJhc2VcUHJvY2VkdXJlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/Database/TableDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YWJhc2VcVGFibGVEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/Database/Tables.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YWJhc2VcVGFibGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/Database/ViewDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YWJhc2VcVmlld0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/Database/Views.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YWJhc2VcVmlld3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ertuğrul/Desktop/C\# Örnekler/InternProject/InternProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7dm7rxyeth
