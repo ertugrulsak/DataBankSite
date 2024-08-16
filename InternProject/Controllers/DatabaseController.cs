@@ -23,6 +23,8 @@ namespace InternProject.Controllers
 
             var databases = await _databaseService.GetDatabasesAsync(isSecure);
 
+            ViewBag.databases = databases;
+
             return View(databases);
         }
 
@@ -190,6 +192,16 @@ namespace InternProject.Controllers
             ViewBag.FunctionName = functionName;
 
             return View("FunctionResult", functionData);
+        }
+
+        public async Task<IActionResult> Home() 
+        {
+            bool isSecure = true;
+
+            var databases = await _databaseService.GetDatabasesAsync(isSecure);
+            ViewBag.databases = databases;
+
+            return View();
         }
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "B8NG0bKkQXk=",
+  "dgSpecHash": "y2eemDcT/1o=",
   "success": true,
   "projectFilePath": "C:\\Users\\Ertuğrul\\Desktop\\C# Örnekler\\InternProject\\InternProject\\InternProject.csproj",
   "expectedPackageFiles": [
@@ -44,6 +44,7 @@
     "C:\\Users\\Ertuğrul\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Ertuğrul\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Ertuğrul\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\Ertuğrul\\.nuget\\packages\\microsoft.typescript.msbuild\\5.5.3\\microsoft.typescript.msbuild.5.5.3.nupkg.sha512",
     "C:\\Users\\Ertuğrul\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Ertuğrul\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Ertuğrul\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
