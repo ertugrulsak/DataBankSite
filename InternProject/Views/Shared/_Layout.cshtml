@@ -10,9 +10,10 @@
 
     <link href="~/Datatable/datatables.min.css" rel="stylesheet" />
     <link href="~/Datatable/datatables.css" rel="stylesheet" />
+
 </head>
 <body>
-    <header>
+    @* <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">InternProject</a>
@@ -22,20 +23,38 @@
                 </button>
             </div>
         </nav>
-    </header>
+    </header> *@
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+        <div class="d-flex align-items-center justify-content-between">
+            <a href="@Url.Action("Index", "Database", new { databaseName = ViewBag.DatabaseName })" class="logo d-flex align-items-center">
+                <span class="d-none d-lg-block">DataBank</span>
+            </a>
+            <i class="bi bi-list toggle-sidebar-btn"></i>
+        </div><!-- End Logo -->
+
+
+        <nav class="header-nav ms-auto">
+        </nav><!-- End Icons Navigation -->
+
+    </header><!-- End Header -->
+    
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    
+    @*    <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+    @await RenderSectionAsync("Scripts", required: false) *@
 
     <script src="~/Datatable/datatables.min.js"></script>
-    <script src="~/Datatable/datatables.js"></script>
+    <script src="~/Datatable/datatables.js"></script> 
 </body>
 </html>
 

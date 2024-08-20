@@ -78,17 +78,37 @@ namespace InternProject.Controllers
             return View(procedures);
         }
 
+        //public async Task<IActionResult> TableDetails(string databaseName, string tableName)
+        //{
+        //    bool isSecure = true; 
+
+        //    var tableData = await _databaseService.GetTableDataAsync(databaseName, tableName, isSecure);
+
+        //    ViewBag.DatabaseName = databaseName;
+        //    ViewBag.TableName = tableName;
+
+        //    return View(tableData);
+        //}
+
         public async Task<IActionResult> TableDetails(string databaseName, string tableName)
         {
-            bool isSecure = true; 
+            bool isSecure = true;
 
-            var tableData = await _databaseService.GetTableDataAsync(databaseName, tableName, isSecure);
+            // DataTable'ı doğrudan alıyorsunuz
+            DataTable tableData = await _databaseService.GetTableDataAsync(databaseName, tableName, isSecure);
 
             ViewBag.DatabaseName = databaseName;
             ViewBag.TableName = tableName;
 
+            // DataTable modelini doğrudan View'a gönderin
             return View(tableData);
         }
+
+
+
+
+
+
 
         public async Task<IActionResult> ViewDetails(string databaseName, string viewName)
         {

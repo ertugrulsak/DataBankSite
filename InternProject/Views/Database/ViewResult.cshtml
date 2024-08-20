@@ -1,5 +1,4 @@
-﻿@model System.Data.DataTable
-
+﻿
 @using System.Data
 
 <!DOCTYPE html>
@@ -19,6 +18,7 @@
     <script src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.html5.min.js"></script> <!-- HTML5 export -->
     <script src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.print.min.js"></script> <!-- Print view -->
 
+
     <script>
         $(document).ready(function () {
             $('#dataTable').DataTable({
@@ -31,6 +31,8 @@
     </script>
 </head>
 <body>
+ 
+
     <div class="container mt-5">
         <h2>@ViewBag.ViewName in @ViewBag.DatabaseName</h2>
         <table id="dataTable" class="display">
@@ -55,6 +57,8 @@
             </tbody>
         </table>
         <a href="@Url.Action("ViewDetails", "Database", new { databaseName = ViewBag.DatabaseName, viewName = ViewBag.ViewName })" class="btn btn-secondary mt-3">Back to View</a>
-    </div>
+    </div> 
+
+
 </body>
 </html>
