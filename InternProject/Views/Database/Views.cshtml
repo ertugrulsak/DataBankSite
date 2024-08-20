@@ -2,29 +2,6 @@
 @using System.Data
 
 
-@* <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Views in @ViewBag.DatabaseName</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
-    <div class="container mt-5">
-        <h2>Views in @ViewBag.DatabaseName</h2>
-        <ul class="list-group">
-            @foreach (var view in Model)
-            {
-                <li class="list-group-item">
-                    <a href="@Url.Action("ViewDetails", "Database", new { databaseName = ViewBag.DatabaseName, viewName = view })">@view</a>
-                </li>
-            }
-        </ul>
-        <a href="@Url.Action("Details", "Database", new { databaseName = ViewBag.DatabaseName })" class="btn btn-primary mt-3">Back to Database Details</a>
-    </div>
-</body>
-</html> *@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -102,8 +79,9 @@
             <h1>Dashboard</h1>
             <nav>
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="../Views/Database/TableDetails.cshtml">Home</a></li>
-                    <li class="breadcrumb-item active">Dashboard</li>
+                    <li class="breadcrumb-item"><a href="@Url.Action("Index", "Database", new { databaseName = ViewBag.DatabaseName })">Databases</a></li>
+                    <li class="breadcrumb-item"><a href="@Url.Action("Views", "Database", new { databaseName = ViewBag.DatabaseName })">Views</a></li>
+                    
                 </ol>
             </nav>
         </div><!-- End Page Title -->
