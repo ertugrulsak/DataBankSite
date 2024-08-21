@@ -85,6 +85,12 @@
                 </ol>
             </nav>
         </div><!-- End Page Title -->
+
+        <a href="@Url.Action("Index", "Database", new { databaseName = ViewBag.DatabaseName })"
+           class="btn btn-primary mt-3"
+           style="position: fixed; bottom: 20px; right: 20px;">
+            Back to Databases
+        </a>
     </main>
     <!-- Vendor JS Files -->
     <script src="~/NiceAdmin/assets/vendor/apexcharts/apexcharts.min.js"></script>
